@@ -1,0 +1,24 @@
+{
+  "name": "droopy-gmaps",
+  "version": "0.0.0",
+  "description": "Google Maps API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droopytersen/droopy-gmaps"
+  },
+  "keywords": [
+    "droopy",
+    "googlemaps",
+    "maps"
+  ],
+  "author": "Andrew Petersen",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/droopytersen/droopy-gmaps/issues"
+  },
+  "homepage": "https://github.com/droopytersen/droopy-gmaps"
+}
