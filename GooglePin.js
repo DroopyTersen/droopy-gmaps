@@ -1,3 +1,7 @@
+if (!google || !google.maps) {
+  throw "Error: Google Maps scripts haven't been loaded yet.";
+}
+var Coord = google.maps.LatLng;
 var GooglePin = function(map, pos, options) {
   this._map = map;
   this.pos = pos;

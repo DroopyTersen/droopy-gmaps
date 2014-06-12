@@ -1,3 +1,7 @@
+if (!google || !google.maps) {
+  throw "Error: Google Maps scripts haven't been loaded yet.";
+}
+var Coord = google.maps.LatLng;
 var GooglePath = function(map, points, options) {
   this._map = map;
   var pathOptions = options || {

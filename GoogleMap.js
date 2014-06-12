@@ -1,8 +1,7 @@
 if (!google || !google.maps) {
 	throw "Error: Google Maps scripts haven't been loaded yet.";
-} else {
-	var Coord = google.maps.LatLng;
 }
+var Coord = google.maps.LatLng;
 
 var GooglePin = require("./GooglePin");
 var GooglePath = require("./GooglePath");
@@ -57,3 +56,5 @@ GoogleMap.prototype.removePath = function(key) {
 		delete this._paths[key];
 	}
 };
+
+module.exports = GoogleMap;
